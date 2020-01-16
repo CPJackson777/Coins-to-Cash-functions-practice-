@@ -25,4 +25,8 @@ def calc_dollars():
         "quarters": 1
     }
 
-    
+    dollarAmount = (piggyBank["pennies"] * 0.01) + (piggyBank["nickels"] * 0.05) + (piggyBank["dimes"] * 0.10) + (piggyBank["quarters"] * 0.25)
+
+    return dollarAmount
+
+print(calc_dollars())
